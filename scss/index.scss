@@ -1,0 +1,91 @@
+/* HEADER */
+
+header {
+  width: 100%;
+  background-color: #fbbe00;
+  box-sizing: border-box;
+  border: 2px solid #191919;
+  position: fixed;
+  .inner {
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    a.logo {
+      height: 80px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      img {
+        width: 160px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding-left: 10px;
+      }
+    }
+    .nav {
+      display: flex;
+      position: absolute;
+      height: 80px;
+      right: 0;
+      align-items: center;
+      ul.menu {
+        font-family: Arial, sans-serif;
+        display: flex;
+        padding: 0;
+        margin-bottom: 0;
+        li {
+          a {
+            font-size: 16px;
+            font-weight: 700;
+            padding: 15px 30px;
+            display: block;
+            color: #191919;
+            &:hover {
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .search {
+        height: 34px;
+        position: relative;
+        margin-left: 65px;
+        input {
+          width: 36px;
+          height: 34px;
+          padding: 5px;
+          border-radius: 8px;
+          outline: none;
+          background-color: #191919;
+          color: white;
+          font-size: 12px;
+          transition: width .4s;
+          &:focus {
+            width: 190px;
+            border-color: #191919;
+          }
+        }
+        .bi.bi-search {
+          height: 16px;
+          color: #fbbe00;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 10px;
+          margin: auto;
+          transition: .4s;
+          cursor: pointer;
+        }
+      }
+      .bi.bi-person-fill {
+        margin: 0 10px 0 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}
