@@ -1,56 +1,8 @@
 /* HEADER */
 
 header {
-  width: 100%;
-  background-color: #fbbe00;
-  box-sizing: border-box;
-  border: 2px solid #191919;
-  position: fixed;
   .inner {
-    width: 1440px;
-    height: 80px;
-    margin: 0 auto;
-    position: relative;
-    a.logo {
-      height: 80px;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      img {
-        width: 160px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        padding-left: 10px;
-      }
-    }
     .nav {
-      display: flex;
-      position: absolute;
-      height: 80px;
-      right: 0;
-      align-items: center;
-      ul.menu {
-        font-family: Arial, sans-serif;
-        display: flex;
-        padding: 0;
-        margin-bottom: 0;
-        li {
-          a {
-            font-size: 16px;
-            font-weight: 700;
-            padding: 15px 30px;
-            display: block;
-            color: #191919;
-            &:hover {
-              color: white;
-              cursor: pointer;
-            }
-          }
-        }
-      }
       .search {
         height: 34px;
         position: relative;
