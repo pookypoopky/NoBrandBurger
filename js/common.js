@@ -4,9 +4,14 @@ let count = 0;
 const slideCount = images.length // 이미지 갯수
 const slideWidth = 204.797 // 이미지 너비
 const slideMargin = 120 // 이미지 외부 여백
-const prevBtn = document.querySelector('#prevBtn')
-const nextBtn = document.querySelector('#nextBtn')
 
+// BUTTON 
+
+// const prevBtn = document.querySelector('#prevBtn')
+// const nextBtn = document.querySelector('#nextBtn')
+
+
+// 이미지 앞, 뒤 복사본
 makeClone();
 
 function makeClone() {

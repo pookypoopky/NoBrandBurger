@@ -111,3 +111,42 @@ header {
     }
   }
 }
+
+// SUBSIDIARY
+.subsidiary {
+  width: 100%;
+  height: 160px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px solid #191919;
+  position: relative;
+  .inner {
+    width: 1440px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    padding: 40px 0;
+    overflow: hidden;
+    .slides{
+      height: 80px;
+      display: flex;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      position: absolute;
+      align-items: center;
+      &.animated {
+        transition: .5s ease-out;
+      }
+      img {
+        height: 40px;
+        &:not(:last-child) {
+          margin-right: 120px;
+        }
+      }
+    }
+  }
+}
