@@ -1,19 +1,13 @@
 // HEADER
-header {
-  .inner {
-    .nav {
-      .bi.bi-person-fill {
-        height: 16px;
-        margin: 0 5px 0 65px;
-        cursor: pointer;
-      }
-      .bi.bi-bag {
-        height: 16px;
-        margin: 0 10px;
-        cursor: pointer;
-      }
-    }
-  }
+.bi.bi-person-fill {
+  height: 16px;
+  margin: 0 5px 0 65px;
+  cursor: pointer;
+}
+.bi.bi-bag {
+  height: 16px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 // MAIN
@@ -26,7 +20,6 @@ header {
   background-attachment: fixed;
   background-size: cover;
   h1 {
-    // -webkit-text-stroke: 1.3px #191919;
     color: white;
     font-size: 30px;
     font-weight: 700;
